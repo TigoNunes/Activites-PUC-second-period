@@ -67,7 +67,7 @@ public class DAO {
 	
 	public boolean conectar() {
 		String driverName = "org.postgresql.Driver";                    
-		String serverName = "ec2-54-204-148-110.compute-1.amazonaws.com";
+		String serverName = "ec2-44-194-6-121.compute-1.amazonaws.com";
 		String mydatabase = "d7674hiovbqemt";
 		int porta = 5432;
 		String url = "postgres://mfhhwhpkyaneee:dc570b226126e301f5d1ed7be045734d9a2d8f09665deed0ecee8d802f74fed9@ec2-54-204-148-110.compute-1.amazonaws.com:5432/d7674hiovbqemt";
