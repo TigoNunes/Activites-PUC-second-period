@@ -5,11 +5,11 @@ import com.google.gson.*;
 import com.squareup.okhttp.*;
 
 public class Translate {
-    private static String subscriptionKey = "YOUR_SUBSCRIPTION_KEY";
+    private static String subscriptionKey = "f7f90790-e4f5-46ed-b697-6ce4b0ebc80b";
 
     // Add your location, also known as region. The default is global.
     // This is required if using a Cognitive Services resource.
-    private static String location = "YOUR_RESOURCE_LOCATION";
+    private static String location = "Sul do Brasil";
 
     HttpUrl url = new HttpUrl.Builder()
         .scheme("https")
